@@ -1,4 +1,7 @@
 define((require, exports) => {
+    const Vue = require('vue')
+    console.info(Vue)
+
     exports.main = 666
     const m1 = exports.xxx = require('./m1')
 
